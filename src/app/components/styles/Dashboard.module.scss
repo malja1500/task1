@@ -1,0 +1,18 @@
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    h1 {
+      font-size: 2rem;
+      color: #0070f3;
+    }
+  
+    .welcomeMessage {
+      font-size: 1.5rem;
+      color: #333;
+    }
+  }
+  
