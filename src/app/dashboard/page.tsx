@@ -22,7 +22,7 @@ const DashboardPage = () => {
       <h1>Welcome to the Dashboard</h1>
       {user && (
         <p className={styles.welcomeMessage}>
-          {`Welcome, ${user.name.first} ${user.name.last}`}
+          {`Welcome, ${user.name.title} ${user.name.first} ${user.name.last}`}
         </p>
       )}
     </div>
