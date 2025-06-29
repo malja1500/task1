@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Input from "../components/Input";
 import Button from "../components/Button";
-import styles from "../styles/Auth.module.scss";
+import styles from "../components/styles/Auth.module.scss";
 import { useRouter } from "next/navigation";
 
 export default function AuthPage() {
