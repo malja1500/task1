@@ -13,13 +13,6 @@ export default function AuthPage() {
   const [error, setError] = useState("");
   const router = useRouter();
 
-  useEffect(() => {
-    const user = localStorage.getItem("user");
-    if (user) {
-      router.push("/dashboard"); 
-    }
-  }, [router]);
-
   const handleLogin = async () => {
     if (!phone) {
       setError("لطفاً شماره وارد کنید.");
